@@ -564,7 +564,7 @@ func TestGetSyncSetResources(t *testing.T) {
 
 	clusterSyncTest := &v1alpha1.ClusterSync{
 		ObjectMeta: metav1.ObjectMeta{
-			Name:      "cluster",
+			Name:      "clustersync1",
 			Namespace: fakeNamespace,
 		},
 	}
